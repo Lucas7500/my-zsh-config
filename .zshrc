@@ -62,5 +62,10 @@ alias flatpak-upgrade='flatpak update'
 alias snap-upgrade='sudo snap refresh'
 alias open='xdg-open'
 
+# Shell Functions
+e() {
+  "$@" && exit
+}
+
 # Enables install suggestions for missing commands in Zsh (like bash)
 source /etc/zsh_command_not_found
