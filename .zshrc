@@ -57,8 +57,8 @@ zstyle ':completion:*' menu no
 # Aliases
 alias ls='ls --color'
 alias c='clear'
-alias apt-upgrade='sudo apt update && sudo apt upgrade'
-alias flatpak-upgrade='flatpak update'
+alias apt-upgrade='sudo apt update -y && sudo apt upgrade -y'
+alias flatpak-upgrade='flatpak update -y'
 alias snap-upgrade='sudo snap refresh'
 alias open='xdg-open'
 
